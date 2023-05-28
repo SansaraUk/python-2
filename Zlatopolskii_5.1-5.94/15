@@ -1,0 +1,5 @@
+d = 10
+sm = 2.54
+print('Дюймы', 'См', sep = '   ')
+for i in range(0, 13):
+    print(d + i, (d + i) * sm, sep = '      ')
