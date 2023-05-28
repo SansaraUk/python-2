@@ -1,0 +1,5 @@
+f = 1
+kg = 0.453
+print('Фунты', 'Кг', sep = '   ')
+for i in range(0, 11):
+    print(f + 1, (f + i) * kg, sep = '       ')
