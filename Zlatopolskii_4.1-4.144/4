@@ -1,0 +1,6 @@
+x = int(input('x = '))
+
+if x < 4:
+    print('I область')
+else:
+    print('II область')
