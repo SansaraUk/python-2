@@ -1,0 +1,4 @@
+a = 21
+b = 19.2
+for i in range(0, 12):
+    print(a - i, b - i)
