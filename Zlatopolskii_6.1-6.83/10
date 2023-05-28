@@ -1,0 +1,5 @@
+n = float(input('Введите целое число '))
+while n % round(n) != 0:
+    print('Ошибка')
+    n = float(input('Введите честное число '))
+print('Привет')
