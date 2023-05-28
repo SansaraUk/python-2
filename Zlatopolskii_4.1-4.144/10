@@ -1,0 +1,7 @@
+km = int(input('Введите расстояние в километрах '))
+f = int(input('Введите расстояние в футах '))
+km1 = km * 3280.84
+if f < km:
+    print(f)
+else:
+    print(km)
